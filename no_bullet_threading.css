@@ -58,17 +58,14 @@ i {
   html {
     font-size: 14px;
   }
-
   .cp__sidebar-main-content > div {
     padding: 1px 1em 1em 1em !important;
     border: none;
   }
-
   a.title h1.title {
     font-size: 24px;
     margin-bottom: 1rem;
   }
-
   .custom-query {
     padding: 0 1rem;
   }
@@ -515,7 +512,7 @@ a:hover > .bullet-container .bullet {
 .embed,
 .embed-page,
 .embed-block {
-  box-shadow: 1px 2px black;
+  box-shadow: 1px 2px rgb(0, 0, 0);
   padding: 0.75em 0.5em;
   border: 2px solid #000;
   border-radius: 8px;
@@ -524,7 +521,7 @@ a:hover > .bullet-container .bullet {
 }
 
 :is(.embed, .embed-page, .embed-block):is(:hover, :focus-within) {
-  box-shadow: 8px 8px black;
+  box-shadow: 8px 8px rgb(0, 0, 0);
   transform: translate(-7px, -6px);
 }
 
@@ -820,8 +817,7 @@ progress::-webkit-progress-value {
 }
 
 .tippy-popper .arrow-regular {
-  display: none;
-  /* Hide the arrow */
+  display: none; /* Hide the arrow */
 }
 
 /* FIXME: this is a hack to remove scroll passed to scroll bottom issue */
@@ -949,8 +945,7 @@ progress::-webkit-progress-value {
 
 a[priority],
 a.priority {
-  font-size: 0px;
-  /* Hide text */
+  font-size: 0px; /* Hide text */
 }
 
 a[priority=A]::before,
@@ -1023,7 +1018,7 @@ body[data-page=graph] .cp__sidebar-main-content > div {
 
 .graph-filters {
   border: 2px solid #000;
-  box-shadow: 4px 4px black;
+  box-shadow: 4px 4px rgb(0, 0, 0);
   border-radius: 8px;
 }
 .graph-filters li:not(:last-of-type) {

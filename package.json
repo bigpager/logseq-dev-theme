@@ -19,9 +19,9 @@
     "icon": "./logo.png"
   },
   "scripts": {
-    "build:main": "yarn sass src/main.scss custom.css --no-source-map",
-    "build:bt": "yarn sass src/bullet_threading.scss bullet_threading.css --no-source-map",
-    "build:no-bt": "yarn sass src/no_bullet_threading.scss no_bullet_threading.css --no-source-map",
+    "build:main": "npx sass src/main.scss custom.css --no-source-map",
+    "build:bt": "npx sass src/bullet_threading.scss bullet_threading.css --no-source-map",
+    "build:no-bt": "npx sass src/no_bullet_threading.scss no_bullet_threading.css --no-source-map",
     "build": "yarn build:main && yarn build:bt && yarn build:no-bt"
   },
   "devDependencies": {
